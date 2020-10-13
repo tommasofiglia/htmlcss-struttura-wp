@@ -65,6 +65,10 @@ nav a{
   padding: 0 12px;
 }
 
+nav li:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .central_part_container{
   width: 70vw;
   margin:auto;
@@ -78,7 +82,7 @@ nav a{
 
 .aside_left{
   width: 12vw;
-  height: 45vh;
+  height: 50vh;
 }
 
 main{
@@ -86,6 +90,18 @@ main{
   height: 35vh;
   margin-left: 4vw;
   margin-right: 4vw;
+}
+
+#three_column {
+  padding: 4% 0 8% 4%;
+}
+
+#title_tw{
+  padding: 10% 0 10% 6%;
+}
+
+#main_p{
+  margin: 0 20px 0 20px;
 }
 
 .aside_right{
@@ -106,10 +122,62 @@ main{
 
 .footer{
   width: 70vw;
-  height: 10vh;
+  height: 17vh;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-
   margin-bottom: 15px;
+  color: lightgrey;
+  text-align: center;
+  font-size: 18px;
+}
+
+aside li{
+  margin-bottom: 10px;
+  padding-left: 4px;
+  padding-right: 4px;
+  list-style: none;
+}
+aside a{
+  color: #2f9c4a;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+#organic{
+  display: inline-block;
+  padding-left: 5%;
+  padding-top: 3%;
+}
+
+#themes{
+  padding-left: 16%;
+}
+
+.fa-rss-square{
+  color: orange;
+  display: inline-block;
+}
+
+.p_example{
+  padding-bottom: 10px;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+#realizzato_da{
+  border-bottom: 1px solid lightgrey;
+}
+
+.icons{
+  font-size: 60px;
+  height: 100%;
+  position: relative;
+  top: 15%;
+}
+
+.fa-instagram{
+  margin-left: 25%;
+  margin-right: 25%;
 }
