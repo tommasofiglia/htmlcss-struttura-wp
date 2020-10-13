@@ -20,8 +20,8 @@
 }
 
 header{
-  width: 70vw;
-  height: 35vh;
+  width: 950px;
+  height: 300px;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
@@ -40,15 +40,15 @@ header{
 }
 
 nav{
-  width: 70vw;
-  height: 5vh;
+  width: 950px;
+  height: 40px;
   background-color: #504741;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
   margin-bottom: 10px;
   text-align: center;
-  line-height: 5vh;
+  line-height: 40px;
 }
 
 nav li {
@@ -70,7 +70,7 @@ nav li:hover{
 }
 
 .central_part_container{
-  width: 70vw;
+  width: 950px;
   margin:auto;
 }
 
@@ -81,15 +81,15 @@ nav li:hover{
 }
 
 .aside_left{
-  width: 12vw;
-  height: 50vh;
+  width: 175px;
+  height: 420px;
 }
 
 main{
-  width: 38vw;
-  height: 35vh;
-  margin-left: 4vw;
-  margin-right: 4vw;
+  width: 520px;
+  height: 300px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 #three_column {
@@ -105,8 +105,8 @@ main{
 }
 
 .aside_right{
-  width: 12vw;
-  height: 120vh;
+  width: 175px;
+  height: 1100px;
 }
 
 .text_widget{
@@ -121,8 +121,8 @@ main{
 }
 
 .footer{
-  width: 70vw;
-  height: 17vh;
+  width: 950px;
+  height: 140px;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
@@ -133,7 +133,7 @@ main{
 }
 
 aside li{
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   padding-left: 4px;
   padding-right: 4px;
   list-style: none;
@@ -141,7 +141,7 @@ aside li{
 aside a{
   color: #2f9c4a;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 700;
 }
 
@@ -152,7 +152,8 @@ aside a{
 }
 
 #themes{
-  padding-left: 16%;
+  padding-left: 18%;
+  margin-bottom: 15px;
 }
 
 .fa-rss-square{
@@ -161,6 +162,7 @@ aside a{
 }
 
 .p_example{
+  padding-top: 15px;
   padding-bottom: 10px;
   padding-left: 6%;
   padding-right: 6%;
@@ -180,4 +182,8 @@ aside a{
 .fa-instagram{
   margin-left: 25%;
   margin-right: 25%;
+}
+
+p{
+  font-size: 18px;
 }
