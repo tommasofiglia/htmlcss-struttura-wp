@@ -54,6 +54,7 @@ nav{
 nav li {
   display: inline-block;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 nav a{
