@@ -15,66 +15,32 @@
 }
 /* fine utility classes */
 
-.container{
+body{
   background-image: url('../img/sfondo.png');
 }
 
-header{
+#container{
   width: 950px;
-  height: 300px;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-top: 10px;
-  background-image: url('../img/header_image.jpg');
-  background-size: cover;
-  border: 7px solid white;
-  text-align: center;
-  text-transform: uppercase;
-  color: white;
-  font-size: 13px;
+  margin: auto;
 }
 
-#logo{
-  width: 50%;
+/* Inizio css relativo a header e navbar */
+header{
+  background-color: blue;
+  width: 950px;
+  height: 300px;
+  margin-top: 10px;
 }
 
 nav{
   width: 950px;
-  height: 40px;
-  background-color: #504741;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
+  height: 45px;
+  background-color: yellow;
   margin-bottom: 10px;
-  text-align: center;
-  line-height: 40px;
 }
+/* Fine css relativo a header e navbar */
 
-nav li {
-  display: inline-block;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-
-nav a{
-  vertical-align: middle;
-  line-height: 20px;
-  color: white;
-  text-decoration: none;
-  list-style: none;
-  padding: 0 12px;
-}
-
-nav li:hover{
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.central_part_container{
-  width: 950px;
-  margin:auto;
-}
-
+/* Inizio parte centrale */
 .central_part_container::after{
   content: "";
   display: table;
@@ -82,113 +48,36 @@ nav li:hover{
 }
 
 .aside_left{
-  width: 175px;
-  height: 420px;
+  width: 20%;
 }
 
 main{
-  width: 520px;
-  height: 300px;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
-#three_column {
-  padding: 4% 0 8% 4%;
-}
-
-#title_tw{
-  padding: 10% 0 10% 6%;
-}
-
-#main_p{
-  margin: 0 20px 0 20px;
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .aside_right{
-  width: 175px;
-  height: 1100px;
+  width: 20%;
 }
 
 .text_widget{
   width:100%;
-  height: 30%;
   margin-bottom: 25px;
 }
 
-.main , .text_widget , .aside_left , .footer{
-  background-color: white;
+.main , .text_widget , .aside_left {
+  background-color: purple;
   border-radius: 4px;
 }
+/* Fine parte centrale */
 
+/* Inizio Footer */
 .footer{
+  background-color: orange;
   width: 950px;
   height: 140px;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
   margin-bottom: 15px;
-  color: lightgrey;
-  text-align: center;
-  font-size: 18px;
+  border-radius: 4px;
 }
-
-aside li{
-  margin-bottom: 12px;
-  padding-left: 4px;
-  padding-right: 4px;
-  list-style: none;
-}
-aside a{
-  color: #2f9c4a;
-  text-decoration: none;
-  font-size: 13px;
-  font-weight: 700;
-}
-
-#organic{
-  display: inline-block;
-  padding-left: 5%;
-  padding-top: 3%;
-}
-
-#themes{
-  padding-left: 18%;
-  margin-bottom: 15px;
-}
-
-.fa-rss-square{
-  color: orange;
-  display: inline-block;
-}
-
-.p_example{
-  padding-top: 15px;
-  padding-bottom: 10px;
-  padding-left: 6%;
-  padding-right: 6%;
-}
-
-#realizzato_da{
-  border-bottom: 1px solid lightgrey;
-}
-
-.icons{
-  font-size: 60px;
-  height: 100%;
-  position: relative;
-  top: 15%;
-}
-
-.fa-instagram{
-  margin-left: 25%;
-  margin-right: 25%;
-}
-
-p{
-  font-size: 18px;
-}
-
-.att_foot{
-  color: lightgrey;
-}
+/* Fine footer */
